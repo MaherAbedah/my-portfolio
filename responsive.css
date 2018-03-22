@@ -1,5 +1,42 @@
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro_img {
+  order:0;
+  width: 60%;
+}
+.intro_info {
+  order: 1;
+  width: 40%;
+}
+
+.my_work {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_title {
+  order: 0;
+  width: 100%;
+}
+
+.work1 {
+  order:1;
+  width: 33.333%;
+}
+
+.work2 {
+  order: 2;
+  width: 33.333%;
+  
+}
+.future_work {
+  order: 3;
+  width: 33.333%;
 
 
+}
 @media screen and (max-width: 549px) {
   .header_logo {
     height: 48px;
@@ -20,10 +57,25 @@
     font-weight: 100;
     text-align: right;
   }
+  .work_title {
+  font-size: 14px;
+  }
 }
-
+@media screen and (max-width: 700px) {
+  .intro_img {
+  
+  width: 100%;
+  }
+  .intro_info {
+    order: 1;
+    width: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+}
 @media screen and (min-width: 800px) {
-  .header_inner {
+  .header_inner, .intro, .my_work {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
