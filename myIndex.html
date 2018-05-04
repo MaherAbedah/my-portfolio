@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Maher Abedah Portfolio</title>
+    <meta name="author" content="Matthew Howell" />
+    <meta name="description" content="fullPage continuous scrolling demo." />
+    <meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+    <meta name="Resource-type" content="Document" />
+
+
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="examples.css" />
+
+    <!--[if IE]>
+        <script type="text/javascript">
+             var console = { log: function() {} };
+        </script>
+    <![endif]-->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <script type="text/javascript" src="examples.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+              sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+              anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+              menu: '#menu',
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<ul id="menu">
+    <li data-menuanchor="firstPage" class="active"><a href="#firstPage">About Me </a></li>
+    <li data-menuanchor="secondPage"><a href="#secondPage">My Projects</a></li>
+    <li data-menuanchor="3rdPage"><a href="#3rdPage">Contact Me</a></li>
+</ul>
+
+
+<div id="fullpage">
+    <div class="section active" id="section0">
+        <div class="mainHeader">
+        <h1>Maher Abedah</h1>
+        <h2>Front-End Developer</h2>
+        </div>
+        <div class="subHeader">
+        <h6>I always had a great time reding and surfing the internet, so it was some kind of mistrey to me how those beautiful pages are desined and why some are pretier or easier to deal with. i decided to dive into the world of programming and help to make the internet prettier.</h6>
+
+        <h6>My prior experience in programming coming from my educational backgroung, but my great skills in Front-End developing came from Google scholarship course Front-End Developer by Udacity.</h6>
+        </div>
+    </div>
+    <div class="section " id="section1">
+        <div class="slide" id="slide1">
+            <div class="intro active">
+             <a href="https://codepen.io/maherabedah/full/jzmezv/">
+                <figure>
+                    <figcaption>
+                    A project of Pixle Art Maker Canvas
+                    </figcaption>
+                    <img src="./imgs/pixel_400.png" alt="pixle art maker web page">
+                </figure>
+            </a>
+            </div>
+        </div>
+        <div class="slide " id="slide2">
+            <a href="https://maherabedah.github.io/Memory-Matching-Game/">
+              <figure>
+                <figcaption>
+                  A project of Memory Game (Matching Cards)
+                </figcaption>
+                <img src="./imgs/Memory_Game_430.png" alt="Memory Matching Game ">
+                
+             </figure>
+            </a>
+        </div>
+        <div class="slide" id="slide3">
+            <a href="http://flatbread.herokuapp.com/">
+              <figure>
+                <figcaption>
+                  A React application for Disc golf players
+                </figcaption>
+                <img src="./imgs/disc-golf-app.jpg" alt="Disc Golf React App">
+                
+             </figure>
+            </a>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="intro contactMe">
+            <a href="https://github.com/MaherAbedah"><img class="contactImage" src="./imgs/github.svg" alt="GitHub-LOGO"></a>
+            <a href="https://linkedin.com/in/maher-abedah"><img class="contactImage" src="./imgs/linkedin.svg" alt="LinkedIn-LOGO"></a>
+            <div >
+                <img class="contacts contactImage" src="./imgs/gmail.svg" alt="Gmail-LOGO">
+                <h6 class="contacts text">m.abedah1@gmail.com</h6>
+            </div>   
+            <div >
+                <img class="contacts contactImage" src="./imgs/mobile-phone.svg" alt="Phone-Icon">
+                <h6 class="contacts text">+358-469322144</h6>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
