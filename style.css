@@ -136,6 +136,12 @@ figcaption{
 	background-size: cover;
 	max-width: 100%;
 }
+#slide5{
+	background-image: url('./imgs/js-oop.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}
 .contactMe{
 	box-sizing: border-box;
 }
