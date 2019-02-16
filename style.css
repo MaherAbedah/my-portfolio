@@ -113,42 +113,50 @@ figcaption{
 	margin-bottom: 4px;
 }
 #slide1{
-	background-image: url('./imgs/jquery-logo.jpg');
+	background-color: #1F8ADB; 
+	background-image: linear-gradient(141deg, #9fb8ad 0%, #1F8ADB 51%, #2cb5e8 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
+    
 }
 #slide2{
-	background-image: url('./imgs/js-and-dom.jpg');
+	background-color: #2C8CDB; 
+	background-image: linear-gradient(141deg, #2C5EDB 0%, #2C8CDB 51%, #2C75DB 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
 }
 #slide3{
-	background-image: url('./imgs/react.png');
+	background-color: #2C75DB; 
+	background-image: linear-gradient(141deg, #2C8CDB 0%, #2C75DB 51%, #2C64DB 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
 
 }
 #slide4{
-	background-image: url('./imgs/react-js-google-maps.png');
+	background-color: #2C64DB; 
+	background-image: linear-gradient(141deg, #2C75DB 0%, #2C64DB 51%, #2C53DB 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
 }
 #slide5{
-	background-image: url('./imgs/react01.png');
+	background-color: #2C53DB; 
+	background-image: linear-gradient(141deg, #2C64DB 0%, #2C53DB 51%, #2C44DB 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
 }
 #slide6{
-	background-image: url('./imgs/js-oop.jpeg');
+	background-color: #2C44DB; 
+	background-image: linear-gradient(141deg, #2C53DB 0%, #2C44DB 51%, #2C2DDB 75%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 100%;
 }
+
 .contactMe{
 	box-sizing: border-box;
 }
@@ -416,12 +424,12 @@ html.fp-enabled,
     left: 15px;
     width: 0;
     border-width: 35.5px 30px 35.5px 0;
-    border-color: transparent #77988CFF transparent transparent;
+    border-color: transparent #000000BD transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #77988CFF;
+    border-color: transparent transparent transparent #000000BD;
 }
 .fp-scrollable {
     overflow: hidden;
