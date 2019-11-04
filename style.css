@@ -156,6 +156,13 @@ figcaption{
 	background-size: cover;
 	max-width: 100%;
 }
+#slide7{
+	background-color: #2C2DDB; 
+	background-image: linear-gradient(141deg, #2C44DB 0%, #2C2DDB 51%, #2C62DB 75%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+}
 
 .contactMe{
 	box-sizing: border-box;
